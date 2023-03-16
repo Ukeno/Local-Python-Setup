@@ -3,7 +3,7 @@ def hello():
     # whitespace
 hello()
 
-print("-------------------")
+# --------------------------------------------------------------------
 
 def pack():
     s = '-- Second'
@@ -11,9 +11,9 @@ def pack():
     # whitespce             main program
 print('First')       # prints before calling pack()
 pack()               # prints (s)
-print('Third')   # prints after calling pack()
+print('Third')       # prints after calling pack()
 
-print("-------------------")
+# --------------------------------------------------------------------
 
 def eat_lunch(list1):
   for x in list1:
